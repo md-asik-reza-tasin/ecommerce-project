@@ -18,7 +18,7 @@ const reviews = [
 
 export default function Testimonials() {
   return (
-    <section className="w-full max-w-7xl mt-20 mx-auto px-6">
+    <section className="w-full max-w-7xl my-20 mx-auto px-6">
       
       {/* Header */}
       <div className="mb-12 text-center">
