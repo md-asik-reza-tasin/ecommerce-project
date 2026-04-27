@@ -1,28 +1,16 @@
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-// Import Auth specific functions
-import { getAuth, GoogleAuthProvider } from "firebase/auth"; 
-import { getAnalytics } from "firebase/analytics";
+import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDNRudZebh7EgXgPiZ1IoVezMmTevhrSAc",
-  authDomain: "florra-auth.firebaseapp.com",
-  projectId: "florra-auth",
-  storageBucket: "florra-auth.firebasestorage.app",
-  messagingSenderId: "523074343472",
-  appId: "1:523074343472:web:c2003c43d7e83a3b1593f5",
-  measurementId: "G-0Y61JF0KF8"
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
 };
 
-// Initialize Firebase
-export const app = initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig);
 
-// --- ADD THESE LINES ---
 export const auth = getAuth(app);
 export const googleProvider = new GoogleAuthProvider();
-// -----------------------
-
-// Analytics check (prevents errors during SSR)
-if (typeof window !== "undefined") {
-  getAnalytics(app);
-}
