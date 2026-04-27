@@ -1,36 +1,123 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Florra – Modern E-commerce Web Application
 
-## Getting Started
+## Project Overview
 
-First, run the development server:
+Florra is a modern e-commerce web application built with Next.js and Firebase Authentication. It allows users to browse products, filter items, view details, and manage products through a protected admin interface. The application focuses on clean UI, responsive design, and a smooth user experience.
+
+---
+
+## Key Features
+
+* User Authentication (Google Login via Firebase)
+* Protected Routes (Add Product, Manage Products)
+* Product Listing with Search & Filtering
+* Dynamic Product Details Page
+* Add Product with Local Storage Persistence
+* Manage Products (View & Delete)
+* Responsive Design (Mobile + Desktop)
+* Toast Notifications for user feedback
+* Clean and modern UI design
+
+---
+
+## Tech Stack
+
+* Next.js (App Router)
+* React.js
+* Firebase Authentication
+* Tailwind CSS
+* Local Storage (for product data)
+* React Hot Toast
+
+---
+
+## Setup & Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/florra.git
+cd florra
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Setup environment variables
+
+Create a `.env.local` file in the root directory and add:
+
+```env
+NEXT_PUBLIC_FIREBASE_API_KEY=your_key
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_domain
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_bucket
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
+```
+
+### 4. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open: (https://florra-ecom.netlify.app/)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Route Summary
 
-## Learn More
+### Public Routes
 
-To learn more about Next.js, take a look at the following resources:
+* `/` → Home page
+* `/products` → All products with filtering
+* `/products/[id]` → Single product details
+* `/about` → About page
+* `/login` → Login page
+* `/register` → Register page
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Protected Routes (Login Required)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* `/auth/add` → Add new product
+* `/auth/manage` → Manage products (view & delete)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Project Structure (Simplified)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+/app
+  /products
+  /auth
+  /about
+  /login
+  /register
+
+/components
+/context
+/lib
+/data
+```
+
+---
+
+## Future Improvements
+
+* Backend integration (Node.js + MongoDB)
+* Cart & Checkout system
+* Admin roles & permissions
+* Product editing feature
+* Payment gateway integration
+
+---
+
+## Author
+
+Tasin
+Frontend / Full Stack Developer
+
+---
