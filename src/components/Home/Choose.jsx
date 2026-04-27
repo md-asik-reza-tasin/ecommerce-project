@@ -1,19 +1,19 @@
 const features = [
   {
     title: "Best Price Guarantee",
-    desc: "We offer competitive pricing with no hidden charges.",
+    desc: "Get the lowest prices on quality products with no hidden charges.",
   },
   {
-    title: "Easy Booking",
-    desc: "Book your trips quickly with a smooth process.",
+    title: "Fast Delivery",
+    desc: "Quick and reliable delivery right to your doorstep.",
   },
   {
-    title: "24/7 Support",
-    desc: "Our team is always available to help you anytime.",
+    title: "24/7 Customer Support",
+    desc: "We’re always available to help you with your orders.",
   },
   {
-    title: "Trusted Agency",
-    desc: "Thousands of happy travelers trust our service.",
+    title: "Trusted Store",
+    desc: "Thousands of happy customers trust our platform.",
   },
 ];
 
@@ -24,10 +24,10 @@ export default function Choose() {
       {/* Section Header */}
       <div className="mb-10 text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-          Why Choose Us
+          Why Shop With Us
         </h2>
         <p className="text-gray-600 mt-2">
-          We make your travel experience simple and reliable
+          We ensure a smooth and trusted shopping experience
         </p>
       </div>
 

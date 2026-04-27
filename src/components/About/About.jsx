@@ -4,8 +4,10 @@ import aboutImg from "@/../public/dubai.jpg"; // you can replace later
 export default function About() {
   return (
     <section className="w-full max-w-7xl mx-auto px-6 pt-20">
+      
       {/* Image */}
       <div className="relative w-full h-[400px] rounded-2xl overflow-hidden shadow-lg">
+        
         {/* Image */}
         <Image src={aboutImg} alt="About us" fill className="object-cover" />
 
@@ -15,18 +17,18 @@ export default function About() {
         {/* Centered Content */}
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-6">
           <h1 className="text-4xl md:text-5xl font-bold text-white">
-            About Our Travel Platform
+            About Our Online Store
           </h1>
 
           <p className="text-gray-200 mt-4 max-w-2xl">
-            We make travel simple, affordable, and unforgettable. Your journey
-            starts with the right experience.
+            We deliver high-quality products at the best prices with fast shipping and trusted service.
           </p>
         </div>
       </div>
 
       {/* Content */}
       <div className="text-center max-w-3xl mx-auto my-10">
+        
         {/* Title */}
         <h2 className="text-2xl font-semibold text-gray-900 mb-4">
           Who We Are
@@ -34,37 +36,27 @@ export default function About() {
 
         {/* Description */}
         <p className="text-gray-600 leading-relaxed mb-4">
-          We are a modern travel and tour management platform dedicated to
-          making travel planning simple, fast, and reliable for everyone. Our
-          system is built to remove the stress of traditional travel booking by
-          bringing flights, hotel packages, visa assistance, and tour planning
-          into one seamless experience.
+          We are a modern eCommerce platform built to provide a smooth and reliable shopping experience for everyone. 
+          Our goal is to connect customers with high-quality fashion, electronics, and lifestyle products in one convenient place.
         </p>
 
         <p className="text-gray-600 leading-relaxed mb-4">
-          Founded with the vision of transforming how people explore the world,
-          we focus on delivering personalized travel solutions for both
-          individuals and groups. Whether it’s a family vacation, business trip,
-          or international tour package, we ensure every journey is carefully
-          planned, cost-effective, and smooth from start to finish.
+          Founded with the vision of making online shopping simple and affordable, we focus on delivering trusted products at competitive prices. 
+          Whether you are shopping for daily essentials, gadgets, or fashion items, we ensure a seamless and enjoyable experience from browsing to delivery.
         </p>
 
         <p className="text-gray-600 leading-relaxed mb-6">
-          Our platform integrates real-time availability, competitive pricing,
-          and trusted travel partners to guarantee the best possible experience.
-          We also provide dedicated customer support to assist travelers at
-          every step—from planning and booking to reaching their destination
-          safely.
+          Our platform integrates secure payments, fast delivery services, and reliable product sourcing to guarantee customer satisfaction. 
+          We work closely with verified sellers and logistics partners to ensure every order reaches you safely and on time.
         </p>
 
         <p className="text-gray-600 leading-relaxed mb-6">
-          At the core of our mission is trust, transparency, and convenience. We
-          believe travel should not be complicated or stressful—it should be
-          exciting, accessible, and memorable for everyone. That is why we
-          continuously improve our system with modern technology and
-          user-focused features.
+          At the heart of our mission is trust, convenience, and quality. We believe online shopping should be easy, fast, and enjoyable. 
+          That’s why we continuously improve our system with modern technology and customer-focused features to enhance your experience.
         </p>
+
       </div>
+
     </section>
   );
 }

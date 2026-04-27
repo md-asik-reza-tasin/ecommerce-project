@@ -24,24 +24,25 @@ export default function Hero() {
           
           {/* Left Content */}
           <div className="text-white space-y-6">
+            
             {/* Headline */}
             <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-              Explore the World with Confidence
+              Discover & Shop Premium Products
             </h1>
 
             {/* Subtitle */}
             <p className="text-lg md:text-xl text-gray-200">
-              Discover amazing destinations, plan your trips easily, and make unforgettable memories.
+              Explore high-quality fashion, electronics, and lifestyle products at the best prices. Everything you need in one place.
             </p>
 
             {/* CTA */}
             <div className="flex gap-4">
               <button className="border border-white px-6 py-3 rounded-xl font-medium hover:bg-white hover:text-black transition">
-                Get Started
+                Shop Now
               </button>
 
               <button className="border border-white px-6 py-3 rounded-xl font-medium hover:bg-white hover:text-black transition">
-                Learn More
+                Browse Products
               </button>
             </div>
           </div>

@@ -15,27 +15,27 @@ export default function Banner() {
           {/* Text */}
           <div className="text-white max-w-xl">
             <h2 className="text-3xl md:text-4xl font-bold leading-tight">
-              Plan Your Next Adventure With Ease
+              Discover Amazing Products at Best Prices
             </h2>
             <p className="text-gray-300 mt-3">
-              Discover top destinations, exclusive travel deals, and seamless booking experience all in one place.
+              Shop premium fashion, electronics, and lifestyle products with fast delivery and trusted service.
             </p>
           </div>
 
           {/* Buttons */}
           <div className="flex gap-4">
             <Link
-              href="/packages"
+              href="/products"
               className="bg-white text-black px-6 py-3 rounded-xl font-medium hover:opacity-90 transition"
             >
-              Explore Deals
+              Shop Now
             </Link>
 
             <Link
               href="/contact"
               className="border border-white text-white px-6 py-3 rounded-xl font-medium hover:bg-white hover:text-black transition"
             >
-              Get in Touch
+              Support
             </Link>
           </div>
 

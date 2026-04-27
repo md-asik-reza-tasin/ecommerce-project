@@ -1,18 +1,18 @@
 const reviews = [
   {
     name: "Rahim Uddin",
-    role: "Traveler",
-    text: "Amazing experience! Everything was smooth from booking to returning. Highly recommended.",
+    role: "Verified Buyer",
+    text: "Amazing quality products! Fast delivery and exactly what I ordered. Highly recommended store.",
   },
   {
     name: "Ayesha Khan",
-    role: "Tourist",
-    text: "Best travel agency I’ve used. Great support and affordable packages.",
+    role: "Happy Customer",
+    text: "Great shopping experience. Affordable prices and excellent customer support.",
   },
   {
     name: "Tanvir Hasan",
-    role: "Business Traveler",
-    text: "Professional service and very easy booking system. Saved me a lot of time.",
+    role: "Regular Customer",
+    text: "Very smooth ordering system. Products always arrive on time and in perfect condition.",
   },
 ];
 
@@ -23,10 +23,10 @@ export default function Testimonials() {
       {/* Header */}
       <div className="mb-12 text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-          What Our Clients Say
+          What Our Customers Say
         </h2>
         <p className="text-gray-600 mt-2">
-          Real feedback from happy travelers
+          Real feedback from verified buyers
         </p>
       </div>
 

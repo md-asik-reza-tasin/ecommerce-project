@@ -4,11 +4,11 @@ import maldives from "@/../public/maldives.jpg";
 import thailand from "@/../public/thailand.jpg";
 import singapore from "@/../public/singapore.jpg";
 
-const destinations = [
-  { name: "Dubai", image: dubai },
-  { name: "Maldives", image: maldives },
-  { name: "Thailand", image: thailand },
-  { name: "Singapore", image: singapore },
+const categories = [
+  { name: "Fashion Deals", image: dubai },
+  { name: "Electronics", image: maldives },
+  { name: "Home Essentials", image: thailand },
+  { name: "Lifestyle Products", image: singapore },
 ];
 
 export default function Popular() {
@@ -18,16 +18,16 @@ export default function Popular() {
       {/* Section Header */}
       <div className="mb-10 text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-          Popular Destinations
+          Popular Categories
         </h2>
         <p className="text-gray-600 mt-2">
-          Explore trending places loved by travelers
+          Explore trending product categories loved by customers
         </p>
       </div>
 
       {/* Cards */}
       <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-6">
-        {destinations.map((item, i) => (
+        {categories.map((item, i) => (
           <div
             key={i}
             className="group relative overflow-hidden cursor-pointer"

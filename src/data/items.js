@@ -1,0 +1,68 @@
+export const products = [
+  {
+    id: 1,
+    name: "Minimal White T-Shirt",
+    image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80",
+    price: 499,
+    category: "Fashion",
+    description: "Premium cotton comfortable white t-shirt.",
+  },
+  {
+    id: 2,
+    name: "Classic Black Hoodie",
+    image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=800&q=80",
+    price: 1299,
+    category: "Fashion",
+    description: "Warm and stylish hoodie for daily wear.",
+  },
+  {
+    id: 3,
+    name: "Wireless Headphones",
+    image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+    price: 2499,
+    category: "Electronics",
+    description: "High quality sound with deep bass.",
+  },
+  {
+    id: 4,
+    name: "Smart Watch",
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80",
+    price: 1999,
+    category: "Electronics",
+    description: "Track fitness and notifications easily.",
+  },
+  {
+    id: 5,
+    name: "Running Shoes",
+    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80",
+    price: 2999,
+    category: "Footwear",
+    description: "Comfortable shoes for running and sports.",
+  },
+  {
+    id: 6,
+    name: "Backpack",
+    image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+    price: 899,
+    category: "Accessories",
+    description: "Durable backpack for travel and daily use.",
+  },
+  {
+    id: 7,
+    name: "Gaming Mouse",
+    image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=800&q=80",
+    price: 799,
+    category: "Electronics",
+    description: "High precision gaming mouse.",
+  },
+  
+  {
+    id: 8,
+    name: "Sunglasses",
+    image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=800&q=80",
+    price: 599,
+    category: "Fashion",
+    description: "UV protection stylish sunglasses.",
+  },
+  
+];
