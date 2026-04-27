@@ -22,7 +22,7 @@ export default function Choose() {
     <section className="w-full max-w-7xl my-20">
       
       {/* Section Header */}
-      <div className="mb-10">
+      <div className="mb-10 text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
           Why Choose Us
         </h2>

@@ -1,6 +1,8 @@
+import Banner from "@/components/Home/Banner";
 import Choose from "@/components/Home/Choose";
 import Hero from "@/components/Home/Hero";
 import Popular from "@/components/Home/Popular";
+import Testimonials from "@/components/Home/Testimonials";
 import Image from "next/image";
 
 export default function Home() {
@@ -9,6 +11,8 @@ export default function Home() {
      <Hero />
      <Popular />
      <Choose />
+     <Banner />
+     <Testimonials />
     </div>
   );
 }

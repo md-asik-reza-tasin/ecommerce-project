@@ -16,7 +16,7 @@ export default function Popular() {
     <section className="w-full max-w-7xl my-20">
       
       {/* Section Header */}
-      <div className="mb-10">
+      <div className="mb-10 text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
           Popular Destinations
         </h2>
@@ -30,7 +30,7 @@ export default function Popular() {
         {destinations.map((item, i) => (
           <div
             key={i}
-            className="group relative rounded-2xl overflow-hidden cursor-pointer"
+            className="group relative overflow-hidden cursor-pointer"
           >
             {/* Image */}
             <div className="relative w-full h-64">
