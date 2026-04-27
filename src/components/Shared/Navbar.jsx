@@ -87,7 +87,7 @@ export default function Navbar() {
                   </div>
 
                   <Link
-                    href="/add-product"
+                    href="/items/add"
                     className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-100 transition"
                     onClick={() => setDropdown(false)}
                   >
@@ -95,7 +95,7 @@ export default function Navbar() {
                   </Link>
 
                   <Link
-                    href="/manage-products"
+                    href="/items/manage"
                     className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-100 transition"
                     onClick={() => setDropdown(false)}
                   >
@@ -148,8 +148,8 @@ export default function Navbar() {
                  </div>
                  <p className="font-bold text-black">{user?.displayName}</p>
               </div>
-              <Link href="/add-product" className="block text-gray-600">Add Product</Link>
-              <Link href="/manage-products" className="block text-gray-600">Manage Products</Link>
+              <Link href="/items/add" className="block text-gray-600">Add Product</Link>
+              <Link href="/items/manage" className="block text-gray-600">Manage Products</Link>
               <button
                 onClick={logout}
                 className="block text-left w-full text-red-500 font-medium"
