@@ -70,9 +70,12 @@ export default function HomeProducts() {
                   ৳{item.price}
                 </span>
 
-                <button className="px-4 py-2 text-sm bg-black text-white rounded-xl hover:opacity-90 transition">
-                  Add to Cart
-                </button>
+                <Link
+                  href={`/items/${item.id}`}
+                  className="px-4 py-2 text-sm bg-black text-white rounded-xl hover:opacity-90 transition"
+                >
+                 View Details
+                </Link>
               </div>
 
             </div>

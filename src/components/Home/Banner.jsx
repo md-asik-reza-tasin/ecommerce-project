@@ -25,7 +25,7 @@ export default function Banner() {
           {/* Buttons */}
           <div className="flex gap-4">
             <Link
-              href="/products"
+              href="/items"
               className="bg-white text-black px-6 py-3 rounded-xl font-medium hover:opacity-90 transition"
             >
               Shop Now
